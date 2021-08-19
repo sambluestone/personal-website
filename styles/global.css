@@ -1,6 +1,7 @@
 body {
   background-color: #efefef;
 }
+
 nav {
   padding-left: 10px;
 }
@@ -15,8 +16,25 @@ footer {
   text-align: center;
 }
 
+section {
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
 @media only screen and (min-width: 768px) {
   footer {
     font-size: 1rem;
   }
+}
+
+#brand {
+  margin-right: 20vw;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 7rem;
 }
